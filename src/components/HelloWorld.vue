@@ -2,6 +2,7 @@
   <div class="hello">
     <input-text @text-box="updateEvent" :message="message" />
     <p>Parentの値: {{ message }}</p>
+    Parent: <input v-model="message" />
   </div>
 </template>
 
